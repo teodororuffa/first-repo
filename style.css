@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Pexels.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.card{
+    width: 500px;
+    height: 700px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.img img{
+    margin-top: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid black;
+    transition: 0.2s;
+}
+.img img:hover{
+    transform: scale(2.5);
+    border-radius: 10px;
+}
+.first{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.motto{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10;
+
+}
+
+.name{
+    color: rgb(252, 249, 249);
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 6px;
+    margin-bottom: 5px;
+
+}
+.content h3{
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    text-align:center;
+}
+.icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.icons li{
+    list-style: none;
+    margin: 6px;
+}
+.icons li a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: gray;
+    text-decoration: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+    transition: 0.1s;
+    transition-delay: 0.2s;
+}
+.icons li a:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 3px rgb(122, 120, 120);
+}
